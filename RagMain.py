@@ -93,7 +93,7 @@ if uploaded_file is not None:
     st.success("PDF uploaded successfully! Processing...")
 
     # Save the uploaded file
-    with open("temp.pdf", "wb") as f:
+    with open("TogafStandardDocument.pdf", "wb") as f:
         f.write(uploaded_file.getvalue())
 
     # Load the PDF
