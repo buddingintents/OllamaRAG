@@ -97,7 +97,7 @@ if uploaded_file is not None:
         f.write(uploaded_file.getvalue())
 
     # Load the PDF
-    loader = PDFPlumberLoader("temp.pdf")
+    loader = PDFPlumberLoader("TogafStandardDocument.pdf")
     docs = loader.load()
 
     # Split the document into chunks
